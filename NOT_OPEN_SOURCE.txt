@@ -1,0 +1,12 @@
+Welcome to FileXplorer!
+
+This project is hosted on Render at the following location:
+https://filexplorer.onrender.com
+
+Please note that the source code for FileXplorer is not open source. The repository provides information about the project, its features, and updates.
+
+If you have any questions or inquiries, feel free to reach out to the project maintainers.
+
+Happy exploring!
+
+MADE WITH ❤️ BY SIDINSEARCH
