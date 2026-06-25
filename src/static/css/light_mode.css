@@ -1,0 +1,28 @@
+/* light_mode.css */
+
+body {
+    background-color: #ffffff;
+    color: #333333;
+}
+
+form {
+    background-color: #ffffff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+input {
+    background-color: #f0f0f0;
+    color: #333333;
+    border-color: #d4d4d4;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Add more styles based on your specific design */

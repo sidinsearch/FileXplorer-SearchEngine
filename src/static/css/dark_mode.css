@@ -1,0 +1,28 @@
+/* dark_mode.css */
+
+body {
+    background-color: #1f1f1f;
+    color: #ffffff;
+}
+
+form {
+    background-color: #1f1f1f;
+    
+}
+
+input {
+    background-color: #2d2d2d;
+    color: #ffffff;
+    border-color: #4a4a4a;
+}
+
+button {
+    background-color: #3498db;
+    color: #ffffff;
+}
+
+button:hover {
+    background-color: #2980b9;
+}
+
+/* Add more styles based on your specific design */

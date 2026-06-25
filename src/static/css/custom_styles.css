@@ -1,0 +1,253 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+}
+
+.form-signin {
+    width: 40%; /* Set width to 40% */
+    max-width: none;
+    padding: 15px;
+    box-sizing: border-box;
+    margin: auto;
+}
+
+.form-label-group {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.form-label-group > input,
+.form-label-group > label {
+    height: 3.125rem;
+    padding: .75rem;
+}
+
+.form-label-group > label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    margin-bottom: 0;
+    line-height: 1.5;
+    color: #495057;
+    pointer-events: none;
+    cursor: text;
+    border: 1px solid transparent;
+    border-radius: .25rem;
+    transition: all .1s ease-in-out;
+    transform-origin: 0 0;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+    color: transparent;
+    text-align: center; /* Center align the placeholder text */
+}
+
+.form-label-group input:-ms-input-placeholder {
+    color: transparent;
+    text-align: center; /* Center align the placeholder text */
+}
+
+.form-label-group input::-ms-input-placeholder {
+    color: transparent;
+    text-align: center; /* Center align the placeholder text */
+}
+
+.form-label-group input::-moz-placeholder {
+    color: transparent;
+    text-align: center; /* Center align the placeholder text */
+}
+
+.form-label-group input::placeholder {
+    color: transparent;
+    text-align: center; /* Center align the placeholder text */
+}
+
+.form-label-group input:not(:placeholder-shown) {
+    padding-top: 1.25rem;
+    padding-bottom: .25rem;
+}
+
+.form-label-group input:not(:placeholder-shown) ~ label {
+    padding-top: .25rem;
+    padding-bottom: .25rem;
+    font-size: 12px;
+    color: #777;
+}
+
+/* Dark mode styles */
+#darkModeStyles {
+    /* Add your dark mode styles here */
+}
+
+/* Toggle button styles */
+.toggle-container {
+    position: fixed;
+    top: 10px;
+    right: 10px;
+    z-index: 1000;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+    position: absolute;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 34px;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+    border-radius: 50%;
+}
+
+input:checked + .slider {
+    background-color: #2196F3;
+}
+
+input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+}
+
+/* Customize the appearance of the toggle text */
+.toggle-text {
+    font-size: 14px;
+    margin-right: 5px;
+    color: #333;
+}
+
+/* Adjusted styles for the search button */
+.btn {
+    width: 100%; /* Set width to 100% */
+    margin-top: 1rem; /* Add margin-top for spacing */
+}
+#searchResults {
+    margin-bottom: 60px; /* Adjust the margin as needed */
+}
+/* Styles for Legend */
+.legend-container {
+    position: fixed;
+    bottom: 10px;
+    left: 10px;
+    background-color: rgba(255, 255, 255, 0.174);
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.legend-item {
+    margin-bottom: 5px;
+}
+
+.legend-emoji {
+    margin-right: 5px;
+}
+/* Add this rule to your CSS file (custom_styles.css or dark_mode.css) */
+.text-white {
+    color: white !important;
+}
+/* Add this rule to decrease the font size */
+.disclaimer-font {
+    font-size: 14px; /* Adjust the size as needed */
+}
+/* Container styles */
+.search-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1rem; /* Adjust the margin as needed */
+}
+
+/* Adjusted styles for the search button */
+.btn {
+    width: 100%; /* Set width to 100% */
+    margin-top: 0rem; /* Reduce the margin-top for spacing */
+}
+
+/* Loading animation styles */
+.loading-container {
+    display: none;
+    margin-top: 1.5rem; /* Adjust the margin-top for the loading container */
+}
+
+.loading {
+    border: 8px solid #f3f3f3;
+    border-top: 8px solid #3498db;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+@media (max-width: 600px) {
+  .form-signin {
+    width: 100%;
+    padding: 15px; 
+  }
+}
+@media (max-width: 768px) {
+
+    .legend-container {
+      display: none; 
+    }
+  
+  }
+  
+  @media (min-width: 769px) {
+  
+    .legend-container {
+      display: block;
+    }
+  
+  }
+  
+  #disclaimerContainer {
+    display: block; 
+  }
+  
