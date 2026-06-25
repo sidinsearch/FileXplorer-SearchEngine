@@ -50,9 +50,6 @@ FileXplorer employs two powerful search mechanisms:
 ## Contributing 🤝
 Contributions are welcome! If you have ideas for improvements or find any issues, please open an issue or submit a pull request.
 
-## License 🔒
-This project is closed source. All rights reserved.
-
 ---
 
 **MADE WITH ❤️ BY SIDINSEARCH**
