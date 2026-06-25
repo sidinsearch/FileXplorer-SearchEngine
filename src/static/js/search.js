@@ -16,8 +16,8 @@ function search() {
     // Hide the disclaimer after the search button is clicked
     document.getElementById('disclaimerContainer').style.display = 'none';
 
-    var apiKey = 'AIzaSyDK5JoPkiySsNZzQAJdrQfSTl318GqQVHU'; // Replace with your Google Custom Search API key
-    var cx = '53c01b16e13ba4ba2'; // Replace with your Custom Search Engine ID
+    var apiKey = 'Replace with your Google Custom Search API key'; // 
+    var cx = 'Replace with your Custom Search Engine ID'; // 
 
     var searchType = '';
     if (document.getElementById("o1").checked) {
